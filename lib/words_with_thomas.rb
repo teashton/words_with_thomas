@@ -18,7 +18,7 @@ module WordsWithThomas
 
 	def self.spacify(str, spaces = 0)
 		spaces.times do
-			str = str.split("").join("")
+			str = str.split("").join(" ")
 		end
 		str
 	end
